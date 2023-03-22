@@ -12,12 +12,11 @@ function App() {
     setResult('Result from your calculation');
   };
   return (
-    
     <div>
-      <h1>New React App</h1>
-      <Form onSubmit={calculate} />
-      <Output result={result} />
-    </div>
+    <h1>New React App</h1>
+    <Form onSubmit={calculate} />
+    <Output result={result} />
+  </div>
   );
 }
 
